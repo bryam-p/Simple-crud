@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.titulo-principal {
+  font-weight: bold;
+  color: rgb(0, 183, 255);
+}

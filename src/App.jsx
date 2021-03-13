@@ -60,12 +60,12 @@ function App() {
 
   return (
     <div className="container mt-5">
-      <h2 className="text-center">Crud simple</h2>
+      <h2 className="text-center titulo-principal">TODO app</h2>
       <hr />
       <div className="row">
         <div className="col-sm-8 col-12">
           <h4 className="text-center">Lista de tareas</h4>
-          <ul className="list-group">
+          <ul className="list-group mt-3">
             {
               tareas.length === 0 ? (
                 <li className="list-group-item">No hay tareas</li>
@@ -81,7 +81,7 @@ function App() {
             }
           </ul>
         </div>
-        <div className="col-sm-4 col-12">
+        <div className="col-sm-4 col-12 mt-4">
           <h4 className="text-center">
             {
               modoEdicion ? 'Editar Tarea' : 'Agregar Tarea'
